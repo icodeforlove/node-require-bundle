@@ -1,6 +1,6 @@
 {
   "name": "require-bundle",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "allows you to transform a universal module (no system dependencies) into a string",
   "main": "index.js",
   "scripts": {

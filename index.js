@@ -14,7 +14,7 @@ function requireSource (name) {
 
 			try {
 				var packageJSON = JSON.parse(packageSource),
-					entryPoint = modulePath + '/' + packageJSON.main,
+					entryPoint = modulePath + '/' + (packageJSON.main || 'index.js'),
 					memoryFS = new MemoryFS();
 
 				var compiler = webpack({
