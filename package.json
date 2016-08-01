@@ -1,0 +1,16 @@
+{
+  "name": "require-bundle",
+  "version": "1.0.0",
+  "description": "allows you to transform a universal module (no system dependencies) into a string",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "app-root-dir": "^1.0.2",
+    "memory-fs": "^0.3.0",
+    "webpack": "^1.13.1"
+  }
+}
